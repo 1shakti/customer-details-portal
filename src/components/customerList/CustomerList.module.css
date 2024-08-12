@@ -1,0 +1,6 @@
+.customerList {
+  width: 30%;
+  background-color: var(--secondary-color);
+  height: 90vh;
+  overflow-y: auto;
+}

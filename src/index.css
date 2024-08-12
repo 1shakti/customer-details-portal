@@ -1,16 +1,54 @@
-*{
+:root {
+  --text-primary-color: #333333;
+  --text-secondary-color: #848484;
+
+  --bg-primary-color: #f6f5f5;
+  --bg-secondary-color: #ffffff;
+
+  --highlight-color: #f6f5f5;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-primary-color);
+  color: var(--text-primary-color);
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 7px; /* Width of the vertical scrollbar */
+  height: 7px; /* Height of the horizontal scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f7f7f7; /* Track color */
+  border-radius: 15px; /* Rounded corners for the track */
+}
+
+/* Style the draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+  border-radius: 15px;
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
 }
 
 #root {
   width: 100vw;
   height: 100vh;
+}
+
+.container {
+  display: flex;
 }
