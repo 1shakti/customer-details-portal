@@ -1,4 +1,5 @@
 # Customer Details Portal
+Click [here](https://cube-customer-details-portal.netlify.app/) for the demo.
 
 ## Overview
 
