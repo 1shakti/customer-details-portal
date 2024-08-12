@@ -14,7 +14,7 @@ function CustomerDetails({ customer }: CustomerDetailsProps) {
       <h2 className={styles.headerName}>{customer.customer_name}</h2>
       <p className={styles.title}>{customer.title}</p>
       <p className={styles.address}>{customer.address}</p>
-      <Suspense fallback={<div style={{ fontWeight: 800 }}>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <PhotoGrid />
       </Suspense>
     </div>
